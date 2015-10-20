@@ -1,0 +1,18 @@
+import time
+x = 1
+y = 1
+z = 0
+
+print(x)
+print(y)
+
+while 1 == 1:
+    z = x + y
+    x = y + z
+    y = z + x
+    print(z)
+    time.sleep(.5)
+    print(x)
+    time.sleep(.5)
+    print(y)
+    time.sleep(.5)
